@@ -1,0 +1,13 @@
+import random
+number = random.randint(0, 100)
+udacha = False
+while udacha == False:
+vesenie = int(input('Vvedite chislo: '))
+if vesenie == number:
+print('Ura!You win!')
+udacha = True
+else:
+if vesenie > number:
+print('Nuznoe chislo menshe!')
+else:
+print('Nuznoe chislo bolshe!')
