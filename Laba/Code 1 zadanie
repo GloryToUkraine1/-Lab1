@@ -1,0 +1,9 @@
+a = int(input('Vvedite chislo A: '))
+b = int(input('Vvedite chislo B: '))
+c = int(input('Vvedite chislo C: '))
+d = int(input('Vvedite chislo D: '))
+k = int(input('Vvedite chislo k: '))
+if b != 0 and a != 0:
+    print(abs((a**2 - b**3 - c**3 * a**2) * (b - c + c * (k-d/b**3)) - ((k/b - k/a)*c)**2 - 20000))
+else:
+    print('A и B не могут принимать нули, так как на ноль делить нельзя!')
