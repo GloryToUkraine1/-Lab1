@@ -1,0 +1,10 @@
+n = int(input('Vvedite dliny spiska: '))
+dict = []
+count = 0
+for i in range(0, n):
+    dict.append(int(input('Vvedite ' + str(i) + ' element spiska: ')))
+print(dict)
+dict = [x for x in dict if x % 2 != 0]
+for i in range(2):
+    dict.append(int(input('Vvedite noviy element: ')))
+print(dict)
