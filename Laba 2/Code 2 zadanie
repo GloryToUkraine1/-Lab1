@@ -2,7 +2,7 @@ data = 'Ф;И;О;Возраст;Категория;_Иванов;Иван;Ива
     'Иванов;Семен;' \
     'Игоревич;22 года;Студент 2 курса;'
 data = data.split(';_')
-for i in range(0, len(data)-1):
+for i in range(0, len(data)):
     string = data[i]
     string = string.split(';')
     print(string[0] + ' ' + string[1] + ' ' + string[2] + '     ' + string[3] + '       ' + string[4])
